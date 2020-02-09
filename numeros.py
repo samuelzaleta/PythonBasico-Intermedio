@@ -31,5 +31,5 @@ Operaciones en secuencia común
 min(s) -> elemento más pequeño de s
 max(s) -> elemento más grande de s
 s.index(x[, i[, j]]) ->índice de la primera aparición de x en s (en o después del índice i y antes del índice j )
-s.count(x) ->
+s.count(x) -> número total de ocurrencias de x en s
 '''
