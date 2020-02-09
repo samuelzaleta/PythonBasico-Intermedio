@@ -37,4 +37,31 @@ print(word[0] + '\n' + #Caracter en posición 0
       )
 #La función incorporada len()devuelve la longitud de una cadena
 s = 'supercalifragilisticexpialidocious'
+s1 = 'SUPERCALIFRAGILISTICO'
 print(len(s))
+
+'''*Métodos de cadenas de texto
+Las cadenas implementan todas las operaciones de secuencia comunes , junto con los métodos adicionales que se describen a continuación.
+str.endswith( sufijo [ , inicio [ , fin ] ] ) ->Devuelva Truesi la cadena termina con el sufijo especificado ; de lo contrario, devuelva False. sufijo también puede ser una tupla de sufijos para buscar.
+str.isalnum( ) 
+Devuelve Truesi todos los caracteres de la cadena son alfanuméricos y hay al menos un carácter, de lo Falsecontrario. 
+Un carácter ces alfanumérico si uno de los siguientes rendimientos True: c.isalpha(), c.isdecimal(), c.isdigit(), o c.isnumeric().
+str.islower( ) 
+Regrese Truesi todos los caracteres en mayúscula en la cadena están en minúsculas y hay al menos un carácter en mayúscula, de lo Falsecontrario
+str.isspace( ) 
+Regrese Truesi solo hay caracteres de espacio en blanco en la cadena y hay al menos un carácter, de lo Falsecontrario.
+str.isupper( ) ¶
+Regrese Truesi todos los caracteres en mayúscula 4 en la cadena son mayúsculas y hay al menos un carácter en mayúscula, de lo Falsecontrario.
+str.join( iterable ) 
+Devuelve una cadena que es la concatenación de las cadenas en iterable . Se TypeErrorgenerará A si hay valores que no sean de cadena en iterables , incluidos los bytesobjetos.
+
+'''
+print(str.capitalize(s1)) #Te devuelve la primera letra capital y el resto en minusculas, Supercalifragilistico
+print(str.casefold(s)) #Devuelve una copia de la cadena con mayúsculas y minúsculas. Las cadenas plegadas en mayúsculas y minúsculas se pueden usar para emparejar sin mayúsculas
+string = "Python is awesome"
+
+new_string = string.center(24, '*')
+
+print("Centered String: ", new_string) #Centered String:  ***Python is awesome**** string.center(width[, fillchar])
+# new_string = string.center(50, '*') ****************Python is awesome*****************
+
