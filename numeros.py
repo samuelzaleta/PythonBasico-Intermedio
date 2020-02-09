@@ -16,3 +16,20 @@ tax = 12.5/1000
 price = 100
 print(price*tax)
 
+'''
+Devuelve el número de bits necesarios para representar un entero en binario, excluyendo el signo y los ceros a la izquierda:
+>>> n = -37
+>>> bin(n)
+'-0b100101'
+>>> n.bit_length()
+6
+'''
+'''
+Operaciones en secuencia común
+[x in s] -> True si un elemento de s es igual a x , de lo contrarioFalse
+[x not in s] -> False si un elemento de s es igual a x , de lo contrarioTrue
+min(s) -> elemento más pequeño de s
+max(s) -> elemento más grande de s
+s.index(x[, i[, j]]) ->índice de la primera aparición de x en s (en o después del índice i y antes del índice j )
+s.count(x) ->
+'''
