@@ -12,7 +12,7 @@ width = 20
 height = 5 * 9
 print(width * height)
 print( 4 * 3.75 -1) #Hay soporte completo para coma flotante; Los operadores con operandos de tipo mixto convierten el operando entero en coma flotante
-tax = 12.5/100
+tax = 12.5/1000
 price = 100
 print(price*tax)
 
