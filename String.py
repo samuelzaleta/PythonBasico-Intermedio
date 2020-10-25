@@ -3,6 +3,7 @@
 **Se pueden incluir entre comillas simples ( '...') o comillas dobles ( "...") con el mismo resultados.
 **\se puede usar para escapar de las comillas:
 '''
+print("Bienvenidos a Fundamentos de programación")
 print('spam eggs')
 print('Doesn\'t')# use \' to escape the single quote
 print("Doesn't")
